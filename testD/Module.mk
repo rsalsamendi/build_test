@@ -24,6 +24,7 @@ testD_HEADERS := testD.h
 testD_SOURCES := testD.c
 
 testD_CFLAGS := -DTESTD_EXPORTS
+testD_LIBS := -lpthread
 
 $(eval $(call CREATE_MODULE,testD,LIB))
 
