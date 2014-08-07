@@ -25,7 +25,7 @@ testA_SOURCES := testA.c
 
 testA_DEPENDS_INCLUDE :=
 testA_DEPENDS_LINK :=
-testA_DEPENDS := testB testC
+testA_DEPENDS := testB testC testE
 
 $(eval $(call CREATE_MODULE,testA,EXE))
 

@@ -24,6 +24,7 @@ PROJECTS = \
 testA \
 testB \
 testC \
-testD
+testD \
+sub/testE
 
 include build/Common.mk
