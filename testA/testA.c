@@ -2,6 +2,7 @@
 
 #include "testB.h"
 #include "testC.h"
+#include "testE.h"
 
 int main(int argc, char** argv)
 {
