@@ -26,5 +26,6 @@ testB_SOURCES := testB.c
 testB_CFLAGS := -DTESTB_EXPORTS
 
 testB_DEPENDS := testD
+testB_DEPENDS_INCLUDE := testE
 
 $(eval $(call CREATE_MODULE,testB,LIB))
