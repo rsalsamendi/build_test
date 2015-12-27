@@ -20,12 +20,14 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-PROJECTS = \
-testA \
-testB \
-testC \
-testD \
-sub/testE \
-testF
+testF_HEADERS :=
+testF_SOURCES := testF.cpp
 
-include build/Common.mk
+testF_DEPENDS_INCLUDE :=
+testF_DEPENDS_LINK :=
+testF_DEPENDS :=
+
+testF_LIBS := -lstdc++
+
+$(eval $(call CREATE_MODULE,testF,EXE))
+
